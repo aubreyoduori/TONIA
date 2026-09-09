@@ -47,10 +47,14 @@ img {
  max-width: 100%; 
 } 
 
-video { 
-max-width: 100%; 
-} 
-
+#beauty-video iframe {
+    width: 80%;
+    max-width: 900px;
+    border: 2px solid #C9A66B;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    margin: 15px;
+}
 
 footer {
  background-color: #5a3d3d; 
